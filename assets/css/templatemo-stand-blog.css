@@ -157,7 +157,10 @@ h1,h2,h3,h4,h5,h6 {
     opacity: 0;
   }
 }
-
+::selection{
+	background-color: orchid;
+	color: #fff;
+}
 
 /* Header Style */
 header {
@@ -1059,7 +1062,7 @@ footer p a:hover {
 	.navbar .navbar-nav .nav-link.active,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #f48840!important;
+		color: purple!important;
 		border-bottom: none!important;
 		padding-bottom: 15px;
 	}
