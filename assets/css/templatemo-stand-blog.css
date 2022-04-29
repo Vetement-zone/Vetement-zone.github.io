@@ -1098,3 +1098,19 @@ footer p a:hover {
 		margin-top: 60px;
 	}
 }
+
+.mode-light{
+    background-color: #fff;
+    color: #000;
+}
+
+.mode-dark{
+    background-color: #000;
+    color: #fff;
+}
+
+.option{
+    border: 5px solid yellow;
+    width: 100px;
+    text-align: center;
+}
